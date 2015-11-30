@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+}
+html, body {
+    height: 100% !important;
+}
+body {
+	background-color: #939aa9;
+	background-image: url(../img/suicune.png);
+	background-repeat: no-repeat;
+	background-position: 10% 100%;
+	background-size: 30% 40%;
+	background-attachment: fixed;
+	position: absolute;
+	bottom: 0px;
+}
+header {
+	background: #000 url(../img/pokemon-unova-blue.jpg) top center no-repeat;
+    width: 1280px;
+	height: 600px;
+	overflow-y: scroll;
+  	background-attachment: fixed;
+}
+nav {
+
+	margin-bottom: 20px;
+}
+nav ul {
+	text-align: center;
+	font-size: 24px;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul a {
+	color: #FFF;
+	text-decoration: none;
+	margin: 10px;
+}
+.intro {
+	color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    line-height: 550px;
+}
+h1 {
+	font-family: 'Lobster', cursive;
+	padding: 10px;
+	font-size: 48px;
+	color:#2383ff;
+	text-align: center;
+
+}
+container {
+	display: block;
+	margin: 100px auto 0 auto;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+section {
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+#cosmo {
+  	padding: 15px 15px 60px 15px;
+	height: 40%;;
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+ 	transform:  rotate(2deg);
+  	border-radius: 5px;
+ 	background: rgba(240,230,220, .7);
+  	box-shadow: 10px 10px 8px rgba(0, 0, 0, .7);
+}
+aside {
+	float: right;
+	vertical-align: top;
+	width: 40%;
+	height: auto;
+	display: inline-block;
+	margin-right: 40px;
+	color: #FFF;
+	font-family: 'Verdana';
+}
+footer {
+	background: rgba(0,0,0, .7);
+	position: absolute;
+	width: 100%;
+	height: 100px !important;
+	margin: 100px 0 0 0;
+	vertical-align:bottom;
+	padding: 0;
+	clear:both;
+}
+img {
+	display: block;
+	margin: 0 auto;
+}
+iframe {
+	display: block;
+	margin: 0 auto;
+}
+#comics {
+	width: 100%;
+	padding-left:7%;
+}
+#DC {
+	display: inline-block;
+	width: 40%;
+	margin: 10px;
+	height: 320px;
+}
+#Marvel {
+	display: inline-block;
+	width: 40%;
+	margin: 10px;
+	height: 320px;
+
+
+}
